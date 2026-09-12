@@ -26,7 +26,7 @@ jobs:
           gradle-version: "8.9"
 
       - name: Extract AniGo
-        run: unzip -q AniGo-S103-v0.3-Anime-Login.zip -d buildsrc
+        run: unzip -q AniGo-S103-v0.4-Anime-Login.zip -d buildsrc
 
       - name: Build APK
         run: gradle -p buildsrc assembleDebug
